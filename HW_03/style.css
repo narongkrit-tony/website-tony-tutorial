@@ -1,0 +1,112 @@
+ 
+ * {
+    box-sizing: border-box;
+  }
+ 
+body {
+    margin: 0;
+}
+
+ #navbar {
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 100%;
+    
+ }
+
+ #navbar > a{
+     float: left;
+     padding: 14px 16px;
+     color:purple;
+     font-size: 20px;
+ }
+ 
+ #navbar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    padding-left: 100px;
+    padding-right: 100px;
+    float: right;
+  }
+
+#navbar ul li {
+    float: left;
+  }
+
+#navbar li a {
+    display: block;
+    color: grey;
+    font-family: Helvetica;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+#navbar li .active{
+    color: purple;
+}
+
+#box_1 {
+    background-image: url("https://csci571.com/hw/hw3/images/coffee2.jpg");
+    height: 100%;
+    width: 100%;
+    overflow:auto;
+    float: left;
+    padding: 40px;
+}
+
+#box_1 .col_1{
+  float: left;
+  padding:30px;
+  color: blue;
+}
+
+#box_1 .left{
+  width: 40%;
+}
+
+#box_1 .right{
+  width: 60%;
+}
+
+#box_2 .column_2{
+    float: left;
+    width: 33.33%;
+    padding: 60px;
+    height: 300px; /* Should be removed. Only for demonstration */
+    vertical-align: center;
+}
+
+#box_3 img {
+  width: 100%;
+  height: 100%;
+}
+
+#box_4 {
+  margin-top: -4px;
+  background-color: purple;
+  height: 350px;
+  padding: 30px;
+}
+#box_4 *{
+  color:white;
+}
+
+#box_5 .col_5{
+  float: left;
+  padding: 10px;
+  height: 300px;
+  color: blue;
+}
+
+#box_5 .left{
+  width: 50%;
+  padding: 40px;
+}
+
+#box_5 .right{
+  width: 50%;
+}
